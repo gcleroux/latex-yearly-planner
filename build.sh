@@ -8,7 +8,7 @@ else
 fi
 
 if [ -z "$CONFIG_FILES" ]; then
-  CONFIG_FILES='cfg/base.yaml,cfg/template_months_on_side.yaml,cfg/sn_a5x.mos.default.yaml,cfg/sn_a5x.mos.default.dailycal.yaml'
+  CONFIG_FILES='cfg/sn_a5x2.base.yaml,cfg/template_months_on_side.yaml,cfg/sn_a5x2.mos.default.yaml,cfg/sn_a5x2.mos.default.dailycal.yaml'
 fi
 
 NAME="planner.${TARGET_YEAR}"

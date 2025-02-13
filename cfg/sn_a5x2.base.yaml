@@ -1,0 +1,65 @@
+weekstart: 1
+ampmtime: false
+dotted: false
+calafterschedule: false
+addlasthalfhour: false
+
+layout:
+  paper:
+    width: 15.6cm
+    height: 20.9cm
+
+    marginparwidth: 1cm
+    marginparsep: 0cm
+    reversemargins: true
+
+    margin:
+      top: 1.2cm
+      bottom: 0.7cm
+      left: 0.5cm
+      right: 0.5cm
+
+  # Max 30 lines per page
+  numbers:
+    arraystretch: 1.5
+    quarterlylines: 30
+    weeklylines: 8
+    dailytodos: 8
+    dailynotes: 20
+    dailypersonal: 6
+    dailybottomhour: 7
+    dailytophour: 23
+
+    dailydiarygoals: 4
+    dailydiarygrateful: 3
+    dailydiarybest: 3
+    dailydiarylog: 12
+
+    todolinesintodopage: 10
+
+    notesindexpages: 4
+    notesonpage: 24
+
+    dotheightfull: 36
+    dotwidthfull: 30
+    dotwidthtwothirds: 20
+
+  lengths:
+    tabcolsep: 3.5pt
+    linethicknessdefault: .4pt
+    linethicknessthick: .8pt
+    lineheightbutline: \dimexpr7mm-.4pt
+    schedulelineheightbutline: \dimexpr5mm-.4pt
+    twocolsep: 5pt
+    tricolsep: 5pt
+    fivecolsep: 5pt
+    monthlycellheight: 55pt
+    notesindexcellheight: 1.40cm
+    headerresizebox: 8mm
+    headersidequarterswidth: 5cm
+    headersidemonthswidth: 14.5cm
+    dailyspring: \textcolor{white}{.}
+
+  colors:
+    gray: gray
+    lightgray: gray!50

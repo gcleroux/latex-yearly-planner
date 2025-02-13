@@ -27,6 +27,7 @@
 \newlength{\myLenLineThicknessDefault}
 \newlength{\myLenLineThicknessThick}
 \newlength{\myLenLineHeightButLine}
+\newlength{\myScheduleLenLineHeightButLine}
 \newlength{\myLenTwoColSep}
 \newlength{\myLenTwoCol}
 \newlength{\myLenTriColSep}
@@ -44,6 +45,7 @@
 \setlength{\myLenLineThicknessDefault}{ {{- $lengths.LineThicknessDefault -}} }
 \setlength{\myLenLineThicknessThick}{ {{- $lengths.LineThicknessThick -}} }
 \setlength{\myLenLineHeightButLine}{ {{- $lengths.LineHeightButLine -}} }
+\setlength{\myScheduleLenLineHeightButLine}{ {{- $lengths.ScheduleLineHeightButLine -}} }
 \setlength{\myLenTwoColSep}{ {{- $lengths.TwoColSep -}} }
 \setlength{\myLenTwoCol}{\dimexpr.5\linewidth-.5\myLenTwoColSep}
 \setlength{\myLenFiveColSep}{ {{- $lengths.FiveColSep -}} }
@@ -66,6 +68,7 @@
 \newcommand{\myLineThick}{\hrule width \linewidth height \myLenLineThicknessThick}
 
 \newcommand{\myLineHeightButLine}{\myMinLineHeight{\myLenLineHeightButLine}}
+\newcommand{\myScheduleLineHeightButLine}{\myMinLineHeight{\myScheduleLenLineHeightButLine}}
 \newcommand{\myUnderline}[1]{#1\vskip1mm\myLineThick\par}
 \newcommand{\myLineColor}[1]{\textcolor{#1}{\myLinePlain}}
 \newcommand{\myLineGray}{\myLineColor{\myColorGray}}
